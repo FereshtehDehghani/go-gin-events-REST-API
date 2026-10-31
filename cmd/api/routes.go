@@ -1,11 +1,10 @@
 package main
 
 import (
+	"events-rest-api/internal/env"
 	"net/http"
-	"rest-api-in-gin/internal/env"
 	"time"
-
-	"github.com/gin-contrib/cors"
+    "github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
