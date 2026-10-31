@@ -2,10 +2,9 @@ package main
 
 import (
 	"database/sql"
+	"events-rest-api/internal/database"
+	"events-rest-api/internal/env"
 	"log"
-	_ "rest-api-in-gin/docs"
-	"rest-api-in-gin/internal/database"
-	"rest-api-in-gin/internal/env"
 
 	_ "github.com/joho/godotenv/autoload"
 	_ "github.com/mattn/go-sqlite3"
